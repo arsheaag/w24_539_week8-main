@@ -57,6 +57,44 @@ footer {
 /* style modifications for the Tablet View */
 @media (min-width: 768px) {
 
-    /*add your code here*/
+    /* part 1 */
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        display: inline-block;
+    }
+
+    /* part 2 */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* part 3 */
+.content {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+/* part 4 */
+.gallery {
+    flex-basis: 100%;
+}
+
+/* part 5 */
+.gallery .images {
+    justify-content: flex-start;
+}
+
+.gallery img {
+    max-width: 200px;
+}
 
 }
